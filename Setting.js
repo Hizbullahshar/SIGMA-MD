@@ -38,20 +38,20 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 //=========================[DEVELOPER'S VARIABLES, DON'T TOUCH]===================
 global.port  = process.env.PORT  || 5000  ;
-global.Gname = process.env.GNAME || "",
-global.waUrl = process.env.WAURL || "",
+global.Gname = process.env.GNAME || "Bots Hub",
+global.waUrl = process.env.WAURL || "https://chat.whatsapp.com/KlSW8y9vDAh5ism0aN4i7a",
 global.audio = '' ; 
 global.video = '' ;
 global.lol   = 'GataDios'
 global.cali  = `lykoUzNh`
-global.devs  = "923466319114";
+global.devs  = "923278974102";
 global.inrl_key = `inrl-bot-mdaqz3ks6md7`;
 global.inrl_api = `https://upper-romy-inrl-bot.koyeb.app/`;
 global.blockJids = process.env.BLOCK_JID ||'120363169665426586@g.us' ;
 global.allowJids = process.env.ALLOW_JID ||'120363169665426586@g.us' ;
 global.email     = 'sharhizbullah36@gmail.com' ; 
 global.github    = 'https://github.com/Maher-Zubair/SIGMA-MD' ;
-global.location  = 'Lahore, Pakistan' ;
+global.location  = 'Karachi, Pakistan' ;
 global.website   = 'https://maher-zubair.tech' ; 
 global.maher_api = process.env.MAHER_API || `https://api.maher-zubair.tech/` ; // MY OWN OFFICIAL API WEBSITE, YOU CAN USE IT IN YOUR BOT OR PROJECT
 //=================================================================================
